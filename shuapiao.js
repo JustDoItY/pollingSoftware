@@ -62,7 +62,7 @@ async function main(page) {
     })
     .catch(function(error){
       errTotal++;
-      console.log('失败',error.data,errTotal);
+      console.log('失败', error.data, errTotal);
       
       if (errTotal>15) {
         index++;
