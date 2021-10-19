@@ -1,6 +1,8 @@
 const axios = require('axios').default;
 const cheerio = require('cheerio');
 
+// nihao
+
 function random() {
   return Math.round(Math.random()*(5-1)+1); // 返回一个随机数字
 }
